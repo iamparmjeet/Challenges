@@ -1,10 +1,9 @@
-import "./App.css";
-import Form from "./Form";
-import Hero from "./Hero";
+import Form from "./components/Form";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <main className="bg-[#0A0A0A] min-h-screen flex flex-col items-center justify-center font-lato">
+    <main className="bg-[#0A0A0A] min-h-screen w-full flex flex-col items-center justify-center font-lato">
       <Hero />
       <Form />
     </main>
