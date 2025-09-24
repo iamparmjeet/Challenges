@@ -41,7 +41,11 @@ export default function Hero() {
           {/*2nd Image*/}
           <BlurDiv className="rounded-[10px]">
             <div className="md:w-[648px] p-2.5 relative">
-              <img src="hero.png" alt="Hero" className="rounded-lg" />
+              <img
+                src="https://assets.parmjeetmishra.com/misc/tufcsshero.png"
+                alt="Hero"
+                className="rounded-lg"
+              />
               <h2 className="mt-5 mb-2.5 h-6 text-white text-xl font-normal flex items-center justify-between">
                 TUF+ Demo - One Stop Prep Platform!
                 <SvgButton />
